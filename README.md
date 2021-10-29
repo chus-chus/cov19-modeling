@@ -6,7 +6,7 @@ extraction steps for the paper
 #### Symptoms-based predictive models of the COVID-19 disease in children
 
 The code is provided in a script form in the `src` folder and in a step-by-step basis in the `notebooks` folder. The
-former is great for more easily understanding how the pipelines work and are structured. The latter is awesome for following
+former is great for easily understanding how the pipelines work and are structured. The latter is awesome for following
 along the whole process, with intermediate explanations, especially for a **non-technical** public. To open the notebooks
 you will need a specific software, such as `jupyter`.
 
