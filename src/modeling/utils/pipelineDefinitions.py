@@ -26,7 +26,6 @@ import numpy as np
 import pandas as pd
 
 from sklearn.model_selection import KFold
-from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import IterativeImputer
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import OneHotEncoder
@@ -37,7 +36,7 @@ from numpy import median
 from numpy import percentile
 from scipy.stats import ttest_rel
 
-from modeling.utils.utils import undersample_data
+from src.modeling.utils.utils import undersample_data
 
 
 def eval_model(modelClass, trainingData, testData, configs, inputNNeigh=5,

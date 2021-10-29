@@ -28,13 +28,13 @@ Note that we do **not** provide the data with this repository. Instead, this sof
 results transparency purposes.
 
 <p align="center">
-    <a href="https://www.copedicat.cat/">
-        <img src="https://pbs.twimg.com/profile_images/1309527192381067270/6zbTWN-M_400x400.jpg" alt="drawing" width="50"/>
+    <a href="https://www.upc.edu/en">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_UPC.svg/2048px-Logo_UPC.svg.png" alt="drawing" width="50"/>
     </a>
     <a href="https://biocomsc.upc.edu/en">
         <img src="https://biocomsc.upc.edu/en/Logo_2014SGR1093_BIOCOMSC.jpg" alt="drawing" width="90"/>
-    </a> 
-    <a href="https://www.upc.edu/en">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_UPC.svg/2048px-Logo_UPC.svg.png" alt="drawing" width="50"/>
+    </a>
+    <a href="https://www.copedicat.cat/">
+        <img src="https://pbs.twimg.com/profile_images/1309527192381067270/6zbTWN-M_400x400.jpg" alt="drawing" width="55"/>
     </a>
 </p>

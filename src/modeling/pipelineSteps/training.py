@@ -4,11 +4,11 @@ import pandas as pd
 import numpy as np
 import pickle
 
-from modeling.configs import nXGB, nSVM, nRF, nLR, nMLP, MLPGrid, LRGrid, RFGrid, kSVMGrid, XGBGrid, modelClasses, \
+from src.modeling.configs import nXGB, nSVM, nRF, nLR, nMLP, MLPGrid, LRGrid, RFGrid, kSVMGrid, XGBGrid, modelClasses, \
     inputNNeigh, missingVal, nCVs, CVFolds, USnegProp, imputeMaxIter, randomState, resGT6Path, pathGT6, res0To5Path, \
     resFullPath, path0To5
-from modeling.utils.pipelineDefinitions import eval_model_pipeline
-from modeling.utils.utils import gen_configs
+from src.modeling.utils.pipelineDefinitions import eval_model_pipeline
+from src.modeling.utils.utils import gen_configs
 
 
 def training_pipeline():

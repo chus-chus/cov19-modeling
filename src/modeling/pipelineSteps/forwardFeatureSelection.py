@@ -5,7 +5,7 @@ import pickle
 import pandas as pd
 import numpy as np
 
-from modeling.configs import fullDataPath, inputNNeigh, missingVal, nCVs, CVFolds, USnegProp, imputeMaxIter, \
+from src.modeling.configs import fullDataPath, inputNNeigh, missingVal, nCVs, CVFolds, USnegProp, imputeMaxIter, \
     randomState, resFullPath, fsResWholePath, pathGT6, path0To5, FS0To5ResPath, fg0To5Res, \
     resGT6Path, FSGT6ResPath
 from sklearn.svm import SVC

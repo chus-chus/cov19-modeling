@@ -9,7 +9,7 @@ from sklearn.preprocessing import normalize
 
 from scipy.stats import ttest_rel
 
-from modeling.utils.pipelineDefinitions import eval_model
+from src.modeling.utils.pipelineDefinitions import eval_model
 
 
 def undersample_data(X, y, randomState, negProp=0.5):

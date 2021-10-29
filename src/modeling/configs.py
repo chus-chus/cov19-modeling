@@ -4,7 +4,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
 from sklearn.ensemble import RandomForestClassifier
 from xgboost.sklearn import XGBClassifier
-from modeling.utils.MLP import MLP
+from src.modeling.utils.MLP import MLP
 
 # --------------------------
 # common parameters

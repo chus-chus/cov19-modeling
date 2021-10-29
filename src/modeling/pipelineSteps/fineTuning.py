@@ -2,13 +2,13 @@ import pickle
 import numpy as np
 import pandas as pd
 
-from modeling.configs import randomState, fullDataPath, XGBGrid, fgWholeResPath, path0To5, RFGrid, pathGT6, fg0To5Res, \
+from src.modeling.configs import randomState, fullDataPath, XGBGrid, fgWholeResPath, path0To5, RFGrid, pathGT6, fg0To5Res, \
     fgResGT6Path
-from modeling.utils.pipelineDefinitions import eval_model
+from src.modeling.utils.pipelineDefinitions import eval_model
 from xgboost.sklearn import XGBClassifier
 from sklearn.ensemble import RandomForestClassifier
 
-from modeling.utils.utils import gen_configs
+from src.modeling.utils.utils import gen_configs
 
 
 def fine_tuning_pipeline():

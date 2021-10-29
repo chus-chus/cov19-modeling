@@ -2,9 +2,9 @@
 
 import pandas as pd
 
-from preprocessing.configs import remove_all, remove_age0, remove_age1, targets, normals, firsts, data_path, \
+from src.preprocessing.configs import remove_all, remove_age0, remove_age1, targets, normals, firsts, data_path, \
     selected_columns, incidence, data_path_incidence, cleanWholeDataPath, clean0To5DataPath, cleanGT6DataPath
-from preprocessing.utils import combine_normal_first, formatting_fever, compute_fever, compute_gi, compute_neuro, \
+from src.preprocessing.utils import combine_normal_first, formatting_fever, compute_fever, compute_gi, compute_neuro, \
     compute_derma, compute_ausc, compute_ausc_type, impute_target, read_data, compute_age
 
 if __name__ == '__main__':

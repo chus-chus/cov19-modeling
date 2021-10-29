@@ -3,9 +3,9 @@ import pickle
 import shap
 import matplotlib.pyplot as plt
 
-from modeling.configs import fgWholeResPath, avgWholePltPath, maxWholePltPath, beesWholePltPath, fg0To5Res, \
+from src.modeling.configs import fgWholeResPath, avgWholePltPath, maxWholePltPath, beesWholePltPath, fg0To5Res, \
     bees0To5PltPath, fgResGT6Path, beesGT6PltPath
-from modeling.utils.utils import change_fnames
+from src.modeling.utils.utils import change_fnames
 
 
 def feature_importance_pipeline():
